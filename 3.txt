@@ -1,2 +1,4 @@
 SELECT DISTINCT `products`.`price`, `products`.`category_id`
-FROM `mydb`.`products`;
+FROM `mydb`.`products`
+ORDER BY `price` DESC
+LIMIT 10
