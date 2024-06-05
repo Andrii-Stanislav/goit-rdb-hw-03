@@ -1,0 +1,4 @@
+SELECT AVG(`products`.`price`) AS avarage_price,
+	MAX(`products`.`price`) AS max_price,
+	MIN(`products`.`price`) AS min_price
+FROM `mydb`.`products`;

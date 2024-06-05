@@ -1,0 +1,2 @@
+SELECT DISTINCT `products`.`price`, `products`.`category_id`
+FROM `mydb`.`products`;

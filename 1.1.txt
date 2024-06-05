@@ -1,0 +1,3 @@
+SELECT `shippers`.`name`,
+    `shippers`.`phone`
+FROM `mydb`.`shippers`;
